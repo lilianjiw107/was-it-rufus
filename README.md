@@ -7,7 +7,15 @@ python main.py -g GIT_DIR
 ```
 where `GIT_DIR` is a local git repository directory. Both full path and relative path are acceptable.
 
-The program should print something like
+The program should print the following things:
+
+- active branch (boolean)
+
+- whether repository files have been modified (boolean)
+
+- whether the current head commit was authored in the last week (boolean)
+
+- whether the current head commit was authored by Rufus (boolean)
 ```
 active branch: main
 local changes: False
