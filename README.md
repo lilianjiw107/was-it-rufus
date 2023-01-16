@@ -5,7 +5,7 @@ Run the following command in your terminal
 ```
 python main.py -g GIT_DIR
 ```
-where `GIT_DIR` is a local git repository directory.
+where `GIT_DIR` is a local git repository directory. Both full path and relative path are acceptable.
 
 The program should print something like
 ```
